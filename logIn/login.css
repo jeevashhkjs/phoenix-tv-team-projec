@@ -1,0 +1,88 @@
+.container{
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.left-portion{
+    width: 50%;
+}
+.loginimage{
+    height: 460px;
+    width: 460px;
+    display: block;
+    margin: 0 auto;
+}
+.quote{
+    color: #0F332D;
+    text-align: center;
+    margin-top: 75px;
+}
+form{
+    color: #0F332D;
+    border-radius: 10px;
+    border-top-style: none;
+    margin-top: 70px;
+    box-shadow: 0px 0px 16px 0px #888888;
+    width: 500px;
+    height: 500px;
+    border: solid 1px grey;
+    display: table-caption;
+    margin-right: 75px;
+}
+.Greeting{
+    text-align: center;
+}
+.Email{
+    border-radius: 10px;
+    height: 45px;
+    width: 400px;
+    display: block;
+    margin: 30px auto;
+    border: solid 1px rgb(216, 212, 212);
+    outline: none;
+}
+.Password{
+    border-radius: 10px;
+    height: 45px;
+    width: 400px;
+    display: block;
+    margin: 40px auto;
+    border: solid 1px rgb(216, 212, 212);
+    outline: none;
+}
+.sub-btn{
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;   
+}
+span{
+    color: blueviolet;
+}
+.or{
+    text-align: center;
+}
+.option{
+    text-align: center;
+}
+input:focus::-webkit-input-placeholder{
+    font-size: 10px;
+    position: relative;
+    top: -15px; 
+    transition: 0.2s ease-out;
+}
+a{
+    text-decoration: none;
+}
+.fa-eye:before {
+    content: "\f06e";
+    position: absolute;
+    top: 305px;
+    right: 145px;
+}
