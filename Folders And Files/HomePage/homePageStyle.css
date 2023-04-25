@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#0095F9;
+    --font-color:#0F332D;
+    --font-secondary-color:#6B6B6B;
+    --background-color:#F2FBFF;
+    --other-range-color:#008496;
+    --green-color:#3DB220;
+    --white-color:white;
+}
+.header {
+    background-color: var(--white-color);
+    height: 70px;
+    box-shadow: 0px 2px 4px 0px gray;
+    display: flex
+}
+img#logo {
+    padding-left: 15px;
+}
+.search {
+    height: 40px;
+    padding-left: 10px;
+    width: 564px;
+    margin-left: 75px;
+    margin-top: 15px;
+    border: 0;
+    box-shadow: 0px 0px 3px 0px var(--font-secondary-color) inset;
+    border-radius: 10px;
+    outline: none;
+}
+.search:focus.searchIcon{
+    display: none;
+}
+.input{
+    position: relative;
+}
+i.fa-solid.fa-magnifying-glass.searchIcon {
+    position: absolute;
+    left: 88px;
+    top: 27px;
+    color: var(--primary-color);
+}
+.buttons-profile {
+    margin-left: 366px;
+    display: flex;
+    gap: 35px;
+}
+.buttons {
+    margin-top: 22px;
+}
+.profile {
+    margin-left: 20px;
+    margin-top: 13px;
+    display: flex;
+    gap: 15px;
+}
+img.cart {
+    margin-left: 20px;
+}
+.line {
+    background-color: var(--primary-color);
+    width: 2px;
+    height: 40px;
+}
+.profilePic {
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    border-radius: 100px;
+}

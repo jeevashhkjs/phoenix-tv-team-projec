@@ -1,0 +1,369 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "dev",
+      "last_name": "dev",
+      "email": "dev@gmail.com"
+    },
+    {
+      "id": 1,
+      "first_name": "dev",
+      "last_name": "dev",
+      "email": "dev@gmail.com"
+    },
+    {
+      "id": 1,
+      "first_name": "dev",
+      "last_name": "dev",
+      "email": "dev@gmail.com"
+    },
+    {
+      "first_name": "dev",
+      "last_name": "dev",
+      "email": "dev@gmail.com",
+      "address": "some random adress,chennai",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "OnePlus Y1S 108 cm (43 inch) Full HD LED Smart Android TV with Android 11 and Bezel-Less Frame",
+      "description": "You can watch your favourite movies, shows, and other content on this OnePlus TV. Sporting a slim bezel-less design, this TV is designed to offer an enhanced viewing experience.",
+      "price": "₹25000",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/kzfvzww0/television/g/4/k/43fd2a00-43-y1s-oneplus-original-imagbgc44gerfphz.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kzfvzww0/television/n/t/p/43fd2a00-43-y1s-oneplus-original-imagbgc4twtftzkz.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kzfvzww0/television/4/n/0/43fd2a00-43-y1s-oneplus-original-imagbgc4rcfpenmd.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kzfvzww0/television/4/i/1/43fd2a00-43-y1s-oneplus-original-imagbgc4mhghmg6g.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kzfvzww0/television/v/l/g/43fd2a00-43-y1s-oneplus-original-imagbgc4z5hhts39.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kzfvzww0/television/p/g/c/43fd2a00-43-y1s-oneplus-original-imagbgc4je3cbynd.jpeg?q=70"
+      ],
+      "model_Name": "43FD2A00",
+      "screen_Type": "LED",
+      "Brand": "One Plus",
+      "inches": "43 inch"
+    },
+    {
+      "id": 2,
+      "name": "SONY Bravia 163.9 cm (65 inch) Ultra HD (4K) LED Smart Google TV  (KD-65X75K)",
+      "description": "The Sony TV is designed to take your enjoyment to the next level by providing a jitter-free and color-rich visual experience. The X1 processor powers this TV, which helps to reduce noise and improve image clarity.",
+      "price": "₹15000",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/l3929ow0/television/h/d/m/kd-65x75k-in5-sony-original-imagef3zkuszrfgh.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3bx5e80/television/q/s/t/-original-imageh4cwzbhfrxw.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3bx5e80/television/s/d/q/-original-imageh4czsahpzgz.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3929ow0/television/v/c/v/kd-32w830k-in5-sony-original-imagef45xzzfve63.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3bx5e80/television/s/y/3/-original-imageh4c799hfags.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3bx5e80/television/r/g/6/-original-imageh4cxyhwmbcg.jpeg?q=70"
+      ],
+      "model_Name": "KD-65X75K",
+      "screen_Type": "4K",
+      "Brand": "Sony",
+      "inches": "65 inch"
+    },
+    {
+      "id": 3,
+      "name": "SONY Bravia 80 cm (32 inch) HD Ready LED Smart Google TV with Google TV  (KD - 32W820K)",
+      "description": "Experience the ultimate beauty of a daylight scene with crystal clear clarity on the Sony W820K 80 cm (32) HD Ready LED Smart TV. This TV comes with an X-Reality PRO display so that you can explore life-like visuals with refined colours and reduced noise.",
+      "price": "₹25,999",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/l3bx5e80/television/j/i/9/-original-imageh2q8qbajhcn.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3bx5e80/television/r/n/v/-original-imageh2qrt7hwuzt.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3bx5e80/television/x/z/5/-original-imageh2qmg25mwgn.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3929ow0/television/v/c/v/kd-32w830k-in5-sony-original-imagef45xzzfve63.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3929ow0/television/e/y/6/kd-32w820k-in5-sony-original-imagef45gvnegqzh.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3929ow0/television/1/m/h/kd-32w820k-in5-sony-original-imagef45cue9zube.jpeg?q=70"
+      ],
+      "model_Name": "KD - 32W820K",
+      "screen_Type": "LED",
+      "Brand": "Sony",
+      "inches": "32 inch"
+    },
+    {
+      "id": 4,
+      "name": "SAMSUNG 80 cm (32 Inch) HD Ready LED Smart Tizen TV with 2022 Model  (UA32T4380AKXXL)",
+      "description": "With this Samsung TV, every image on the screen comes to life, giving you a home theatre experience. With the HD visual quality of this TV, you can enjoy vibrant movie scenes",
+      "price": "₹13,990",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/m/n/p/-original-imagkzctc2gkvfgf.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/e/w/l/-original-imagkzct98ggkhqz.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/k/f/r/-original-imagmxh3fhehrmc4.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/z/1/a/-original-imagmxh3jfpsfdrd.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/b/s/r/-original-imagkzctfgqkbzff.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/u/f/4/-original-imagkx3hdgmpjwqn.jpeg?q=70"
+      ],
+      "model_Name": "UA32T4380AKXXL",
+      "screen_Type": "LED",
+      "Brand": "SAMSUNG",
+      "inches": "32 Inch"
+    },
+    {
+      "id": 5,
+      "name": "SAMSUNG Crystal 4K 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV  (UA43AUE60AKLXL)",
+      "description": "Bring home the sleek and powerful SAMSUNG Ultra HD (4K) LED Smart TV (UA55AUE60AKLXL) to enjoy seamless entertainment from all your favourite resources. ",
+      "price": "₹29,990",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/l3nco7k0/television/s/q/m/-original-imageq5eptqwxcv8.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3nco7k0/television/z/d/k/-original-imageq5ejzy6enmw.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kzllrbk0/television/f/r/i/-original-imagbkm3a4wmr7v5.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/v/t/j/-original-imagmxj3av5ugs9y.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ko1smfk0/television/9/1/l/ua43aue60aklxl-ua43aue60aklxl-samsung-original-imag2hg7m4ddfthw.jpeg?q=70"
+      ],
+      "model_Name": "UA43AUE60AKLXL",
+      "screen_Type": "LED",
+      "Brand": "SAMSUNG",
+      "inches": "43 inch"
+    },
+    {
+      "id": 6,
+      "name": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV  (32LM565BPTA)",
+      "description": "This LG Smart TV comes equipped with a host of impressive features to delight your senses. While its Dynamic Color Enhancer produces vivid and lifelike colors on the screen, the LG WebOS feature ",
+      "price": "₹13,999",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/l0fm07k0/television/7/x/9/-original-imagc8fnpx39evgc.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3lx8cw0/television/i/o/d/-original-imagepfnxepz43n5.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3lx8cw0/television/k/t/g/-original-imagepfnpffsc8ay.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3lx8cw0/television/x/t/y/-original-imagepfn24c6yxk2.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3lx8cw0/television/k/t/g/-original-imagepfnpffsc8ay.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l3lx8cw0/television/i/o/d/-original-imagepfnxepz43n5.jpeg?q=70"
+      ],
+      "model_Name": "32LM565BPTA",
+      "screen_Type": "LED",
+      "Brand": "LG",
+      "inches": "32 inch"
+    },
+    {
+      "id": 7,
+      "name": "LG UQ8020 108 cm (43 inch) Ultra HD (4K) LED Smart WebOS TV 2022 Edition  (43UQ8020PSB)",
+      "description": "Enrich your viewing experience and enjoy access to digital content throughout the day, as you bring home the LG UHD TV. It features a UHD 4K resolution display ",
+      "price": "₹37,990",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/k/x/s/-original-imaghzmvjnsvnhhs.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l572ufk0/television/5/k/k/65uq7500psf-65uq7500psf-lg-original-imagfxgxyfymyd9g.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l572ufk0/television/5/k/k/65uq7500psf-65uq7500psf-lg-original-imagfxgxyfymyd9g.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l572ufk0/television/h/g/b/55uq7500psf-55uq7500psf-lg-original-imagfxgxvbcdzh6r.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l572ufk0/television/s/5/v/55uq7500psf-55uq7500psf-lg-original-imagfxgx6nehhqhb.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/o/x/q/43uq8020psb-lg-original-imaggthgtnknyztp.jpeg?q=70"
+      ],
+      "model_Name": "43UQ8020PSB",
+      "screen_Type": "LED",
+      "Brand": "LG",
+      "inches": "43 inch"
+    },
+    {
+      "id": 8,
+      "name": "ONIDA 80 cm (32 inch) HD Ready LED Smart VIDAA TV  (32IV)",
+      "description": "You can watch your favourite entertainment programmes or catch up on news on the Onida HD-ready TV. It has an A+ grade panel with a resolution of 1366x768p, which produces sharp and crystal-clear images.",
+      "price": "₹11,999",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/l1qrjbk0/television/p/8/w/32iv-onida-original-imagd8pe9r52edvc.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l1qrjbk0/television/h/l/5/32iv-onida-original-imagd8pefjgrnxey.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l1qrjbk0/television/x/p/x/32iv-onida-original-imagd8pe32au4qgf.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l1qrjbk0/television/t/o/4/43fiv-onida-original-imagd8peazgdr9bn.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l2f20sw0/television/r/d/f/-original-imagdrb4madrwzdr.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l2f20sw0/television/2/q/p/-original-imagdrb4gbbf4mmu.jpeg?q=70"
+      ],
+      "model_Name": "32IV",
+      "screen_Type": "LED",
+      "Brand": "ONIDA",
+      "inches": "32 inch"
+    },
+    {
+      "id": 9,
+      "name": "ONIDA HIF3 80 cm (32 inch) HD Ready LED Smart FireTv OS 7 TV with Bezel Less  (32HIF3)",
+      "description": "Fire TV Built-In | Voice Remote with Alexa | DTH Set-Top Box Integration to switch between DTH TV Channels & OTT apps | Display Mirroring | Access 70+ free live channels on the Live tab | Personalization - up to 6 user profiles | Data Monitoring | Supported Apps ",
+      "price": "₹13,499",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/1/p/y/fire-tv-32hif3-onida-original-imagm84hs53sngtp.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/a/g/g/fire-tv-32hif3-onida-original-imagm84h7sgefhbk.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/a/2/r/fire-tv-32hif3-onida-original-imagm84hd7nvgtaz.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/v/l/l/fire-tv-32hif3-onida-original-imagm84hf5fzmys6.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/a/g/g/fire-tv-32hif3-onida-original-imagm84h7sgefhbk.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/l/o/b/fire-tv-32hif3-onida-original-imagm84hudbahtht.jpeg?q=70"
+      ],
+      "model_Name": "32HIF3",
+      "screen_Type": "LED",
+      "Brand": "ONIDA",
+      "inches": "32 inch"
+    },
+    {
+      "id": 10,
+      "name": "Panasonic 100 cm (40 inch) Full HD LED Smart Android TV  (TH-40HS450DX)",
+      "description": "This Panasonic Full HD LED Smart TV is here to ensure that you get to stay entertained with attention-grabbing visuals, powerful sound, and so on. ",
+      "price": "₹24,990",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/kesv0y80/television/3/e/m/panasonic-th-40hs450dx-original-imafvejq988merwd.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kb5eikw0/television/3/e/m/panasonic-th-40hs450dx-original-imafskcvxjytdyh8.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kb6tyfk0/television/3/e/m/panasonic-th-40hs450dx-original-imafshezmkknntuk.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kb6tyfk0/television/3/e/m/panasonic-th-40hs450dx-original-imafshezvawc9c8b.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kb6tyfk0/television/3/e/m/panasonic-th-40hs450dx-original-imafshezf5gcwr9x.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/kesv0y80/television/3/e/m/panasonic-th-40hs450dx-original-imafvejq988merwd.jpeg?q=70"
+      ],
+      "model_Name": "TH-40HS450DX",
+      "screen_Type": "LED",
+      "Brand": "PANASONIC",
+      "inches": "40 inch"
+    },
+    {
+      "id": 10,
+      "name": "Panasonic 80 cm (32 inch) HD Ready LED Smart TV  (TH-32LS550DX)",
+      "description": "Warranty does not Cover Any External Accessories (Such as Battery, Cable, Carrying Bag), Damage Caused to the Product due to Improper Installation by Customer, Normal Wear and Tear to Magnetic Heads,",
+      "price": "₹24,990",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/l5ld8y80/television/k/e/z/th-32ls550dx-panasonic-original-imagg8e37nyuykeq.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l5ld8y80/television/0/p/w/th-32ls550dx-panasonic-original-imagg8e35a8wxztd.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l5ld8y80/television/m/h/g/th-32ls550dx-panasonic-original-imagg8e3bebx6ddr.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l5ld8y80/television/y/k/b/th-32ls550dx-panasonic-original-imagg8e3hswvmu9q.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l5ld8y80/television/m/h/g/th-32ls550dx-panasonic-original-imagg8e3bebx6ddr.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l5ld8y80/television/k/e/z/th-32ls550dx-panasonic-original-imagg8e37nyuykeq.jpeg?q=70"
+      ],
+      "model_Name": "TH-40HS450DX",
+      "screen_Type": "LED",
+      "Brand": "PANASONIC",
+      "inches": "32 inch"
+    },
+    {
+      "id": 11,
+      "name": "Mi 5A 80 cm (32 inch) HD Ready LED Smart Android TV with Dolby Audio (2022 Model)",
+      "description": "You can enjoy your favourite movies, catch up on news, and binge-watch TV series on the Xiaomi L32M7-5AIN HD Smart TV. It features an elegant metal frame with a bezel-less design, allowing you to enjoy a widescreen view. In addition",
+      "price": "₹13,999",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/l2ghgnk0/television/u/a/c/l32m7-5ain-mi-original-imagdsdwqf6bkmkz.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l2ghgnk0/television/x/d/9/l32m7-5ain-mi-original-imagdsdwdrbwcshh.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l2ghgnk0/television/x/d/9/l32m7-5ain-mi-original-imagdsdwdrbwcshh.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l2f20sw0/television/q/b/k/l43m7-eain-mi-original-imagdrtnuxvggqgd.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l2f20sw0/television/j/d/m/l43m7-eain-mi-original-imagdrtn5dzkmrpg.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l2ghgnk0/television/s/j/y/l32m7-5ain-mi-original-imagdsdwfszuzkax.jpeg?q=70"
+      ],
+      "screen_Type": "LED",
+      "Brand": "MI",
+      "inches": "32 inch"
+    },
+    {
+      "id": 12,
+      "name": "Mi X Series 108 cm (43 inch) Ultra HD (4K) LED Smart Android TV with Dolby Vision and 30W Dolby Audio (2022 Model)",
+      "description": "With this Xiaomi TV that breathes life into your entertainment, you bring home the real entertainer and always keep one step ahead of the entertainment curve. The stunning bezel-less design ",
+      "price": "₹28,999",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/l2ghgnk0/television/u/a/c/l32m7-5ain-mi-original-imagdsdwqf6bkmkz.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l2ghgnk0/television/x/d/9/l32m7-5ain-mi-original-imagdsdwdrbwcshh.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l2ghgnk0/television/x/d/9/l32m7-5ain-mi-original-imagdsdwdrbwcshh.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l2f20sw0/television/q/b/k/l43m7-eain-mi-original-imagdrtnuxvggqgd.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l2f20sw0/television/j/d/m/l43m7-eain-mi-original-imagdrtn5dzkmrpg.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/l2ghgnk0/television/s/j/y/l32m7-5ain-mi-original-imagdsdwfszuzkax.jpeg?q=70"
+      ],
+      "screen_Type": "LED",
+      "Brand": "MI",
+      "inches": "43 inch"
+    },
+    {
+      "id": 13,
+      "name": "PHILIPS 7600 Series 126 cm (50 inch) Ultra HD (4K) LED Smart Linux based TV  (50PUT7605/94)",
+      "description": "While watching your favourite shows and movies, you can enjoy clear images and impactful sound, thanks to the Philips 7600 Series Smart TV. Designed with a borderless screen, this TV helps deliver an engrossing and entertaining viewing experience.",
+      "price": "₹30,999",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/ks3jjbk0/television/s/u/e/50put7605-94-philips-original-imag5qrgz3u3hxgh.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ks3jjbk0/television/u/g/q/50put7605-94-philips-original-imag5qrgfdqyswuy.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ks3jjbk0/television/e/e/i/50put7605-94-philips-original-imag5qrgrhpnfs6x.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ks3jjbk0/television/e/g/y/50put7605-94-philips-original-imag5qrg97mtyxgp.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ks3jjbk0/television/e/g/y/50put7605-94-philips-original-imag5qrg97mtyxgp.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ks3jjbk0/television/x/8/n/50put7605-94-philips-original-imag5qrgryhahsvt.jpeg?q=70"
+      ],
+      "screen_Type": "LED",
+      "Brand": "PHILIPS",
+      "inches": "50 inch"
+    },
+    {
+      "id": 14,
+      "name": "PHILIPS 6800 Series 108 cm (43 inch) Full HD LED Smart Linux based TV  (43PFT6815/94)",
+      "description": "Crafted for cinephiles with an eye for detail, the Philips FHD LED Smart TV can add a visually impactful dimension to your weekend movie marathons. ",
+      "price": "₹26,950",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/ko7idu80/television/s/6/b/43pft6815-94-philips-original-imag2pg2cgdxcmzd.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ko7idu80/television/j/o/i/43pft6815-94-philips-original-imag2pg2zkpfqmnw.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ko7idu80/television/i/v/d/43pft6815-94-philips-original-imag2pg2xhnkezvk.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ko7idu80/television/2/b/k/43pft6815-94-philips-original-imag2pg27yvqk2nf.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ko7idu80/television/f/8/k/43pft6815-94-philips-original-imag2pg2nvampd6s.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/ko7idu80/television/j/o/i/43pft6815-94-philips-original-imag2pg2zkpfqmnw.jpeg?q=70"
+      ],
+      "screen_Type": "LED",
+      "Brand": "PHILIPS",
+      "inches": "43 inch"
+    },
+    {
+      "id": 15,
+      "name": "Vu Premium TV 108 cm (43 inch) Full HD LED Smart Android TV  (43GA-Android)",
+      "description": "You can keep yourself immersed and entertained in your favourite content with the Vu 43GA-Android 109.22 cm (43) TV. Its A+ standard high-brightness IPS screen ensures constant brightness from edge to edge and corner to corner for an excellent viewing experience even in direct sunlight",
+      "price": "₹19,999",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/ko7idu80/television/f/8/k/43pft6815-94-philips-original-imag2pg2nvampd6s.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/j/v/r/43ga-43ga-android-vu-original-imaghra9zzddwzbp.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/f/6/j/43ga-43ga-android-vu-original-imaghra9xy6kuxm8.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/x/j/1/43ga-43ga-android-vu-original-imaghra9ssgyh9zk.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/z/z/q/43ga-43ga-android-vu-original-imaghra9hukzuwp8.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/128/128/xif0q/television/c/s/l/43ga-43ga-android-vu-original-imaghra99jvbfcgn.jpeg?q=70"
+      ],
+      "screen_Type": "LED",
+      "Brand": "VU",
+      "inches": "43 inch"
+    },
+    {
+      "id": 16,
+      "name": "Vu 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV  (43CA)",
+      "description": "You can enjoy watching your favourite movies on the Vu TV, thanks to 400 Nits brightness that enables life-like visuals. It features a 50 W built-in soundbar with 2 box speakers and 2-tweeter speakers to give you an immersive experience.",
+      "price": "₹23,999",
+      "images": [
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/q/4/f/43ca-vu-original-imagnycc6hxuvfvy.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/p/b/z/43ca-vu-original-imagnyccgvkhnfjg.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/m/l/2/43ca-vu-original-imagnycc72dh7xtc.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/m/l/2/43ca-vu-original-imagnycc72dh7xtc.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/s/z/u/43ca-vu-original-imagnyccdfw65ygb.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/p/b/z/43ca-vu-original-imagnyccgvkhnfjg.jpeg?q=70",
+        "https://rukminim1.flixcart.com/image/416/416/xif0q/television/y/x/c/43ca-vu-original-imagnyccybfptk44.jpeg?q=70"
+      ],
+      "screen_Type": "LED",
+      "Brand": "VU",
+      "inches": "43 inch"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 1,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 2,
+      "quantity": 1
+    },
+    {
+      "userId": 1,
+      "productId": 1,
+      "quantity": 2,
+      "id": 3
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 3
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 1
+    },
+    {
+      "userId": 1,
+      "productId": 3,
+      "id": 3
+    }
+  ],
+  "reviews": []
+}
