@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 1280px;
+}
 :root{
     --primary-color:#0095F9;
     --font-color:#0F332D;
@@ -12,11 +15,15 @@
     --green-color:#3DB220;
     --white-color:white;
 }
+body{
+    background-color: var(--background-color);
+}
 .header {
     background-color: var(--white-color);
     height: 70px;
     box-shadow: 0px 2px 4px 0px gray;
-    display: flex
+    display: flex;
+    max-width: 1280px;
 }
 img#logo {
     padding-left: 15px;
@@ -71,4 +78,72 @@ img.cart {
     width: 40px;
     background-color: green;
     border-radius: 100px;
+}
+.brandsName {
+    display: flex;
+    margin-left: 94px;
+    gap: 82px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.bannerImg{
+    width: 1263px;
+}
+.parentDivs > img{
+    height: 122px;
+    width: 201px;
+}
+.productsLists{
+    margin-top: 16px;
+    display: flex;
+}
+.parentDivs{
+    background-color: white;
+    height: 220px;
+    width: 225px;
+}
+.parentDivs > img {
+    height: 122px;
+    width: 201px;
+    margin-top: 12px;
+    margin-left: 11px;
+}
+p.productName {
+    padding-top: 8px;
+    text-align: center;
+}
+p.PPrice {
+    text-align: center;
+    padding-top: 5px;
+}
+.productsLists {
+    margin-top: 16px;
+    display: flex;
+    margin-left: 38px;
+    gap: 16px;
+}
+h4{
+    color: var(--primary-color);
+}
+li {
+    list-style: none;
+    line-height: 32px;
+}
+.footer{
+    display: flex;
+}
+.contactAndSupport {
+    display: flex;
+    margin-left: 37px;
+    margin-right: 37px;
+    gap: 62px;
+}
+textarea,input.feedback {
+    height: 40px;
+    width: 300px;
+    border: solid 2px var(--primary-color);
+    border-radius: 6px;
+}
+.links, .feedback, .store > h4{
+    margin-bottom: 26px;
 }
