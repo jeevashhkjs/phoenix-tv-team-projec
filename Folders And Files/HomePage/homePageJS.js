@@ -5,7 +5,6 @@ let searchIcon = document.querySelector(".searchIcon")
 let productList = document.querySelector(".productsLists")
 let brandDiv = document.querySelector(".brandsName")
 let banner = document.querySelector(".bannerImg")
-let products = document.querySelector(".productsLists")
 //search icons invisible function
 searchInput.addEventListener("click",()=>{
     searchIcon.style.display = "none"
@@ -26,8 +25,18 @@ brands.forEach(brand => {
     brandDiv.append(brandPara)
 });
 
+// banner image sources
+let banners = ["./images/banner/banner1.svg","./images/banner/banner2.svg","./images/banner/banner3.svg","./images/banner/banner4.svg"]
+
 //banner showing function
-banner.src = "./images/banner1.svg"
+let bannercount = 0
+setInterval(() => {
+    bannercount++
+    if(bannercount >= banners.length){
+        bannercount = 0
+    }
+    banner.src = banners[bannercount]
+}, 1900)
 
 
 //products lists
@@ -37,9 +46,12 @@ window.addEventListener("DOMContentLoaded",()=>{
     .then(res=>res.json())
     .then(productsFromApi=>{
         for(let i=0;i<productsFromApi.length;i++){
-            if(i>4){
-                break;
-            }
+
+            let NextPage = document.createElement("a")
+            console.log(productsFromApi[i].id)
+            NextPage.setAttribute("id",`${productsFromApi[i].id}`)
+            NextPage.href = `../ProductDetails/product.html${productsFromApi[i].id}`
+            productList.append(NextPage)
 
             let parentDiv = document.createElement("div")
             parentDiv.setAttribute("class","parentDivs")
@@ -60,7 +72,7 @@ window.addEventListener("DOMContentLoaded",()=>{
             parentDiv.append(createImg)
             parentDiv.append(productDetail)
             parentDiv.append(productPrice)
-            products.append(parentDiv)
+            NextPage.append(parentDiv)
         }
     })
 })

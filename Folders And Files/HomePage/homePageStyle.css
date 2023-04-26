@@ -14,6 +14,7 @@ body{
     --other-range-color:#008496;
     --green-color:#3DB220;
     --white-color:white;
+    --shadow-color:#0a5c93;
 }
 body{
     background-color: var(--background-color);
@@ -101,6 +102,7 @@ img.cart {
     background-color: white;
     height: 220px;
     width: 225px;
+    box-shadow: 0px 0px 10px 0px var(--shadow-color);
 }
 .parentDivs > img {
     height: 122px;
@@ -117,10 +119,11 @@ p.PPrice {
     padding-top: 5px;
 }
 .productsLists {
-    margin-top: 16px;
     display: flex;
-    margin-left: 38px;
-    gap: 16px;
+    gap: 23px;
+    max-width: 1220px;
+    flex-wrap: wrap;
+    margin: 16px auto;
 }
 h4{
     color: var(--primary-color);
@@ -139,11 +142,37 @@ li {
     gap: 62px;
 }
 textarea,input.feedback {
+    background-color: var(--background-color);
     height: 40px;
     width: 300px;
     border: solid 2px var(--primary-color);
     border-radius: 6px;
 }
+textarea {
+    height: 114px;
+    color: var(--primary-color);
+}
 .links, .feedback, .store > h4{
     margin-bottom: 26px;
+}
+h4.topBrnd {
+    text-align: center;
+    margin: 16px 0px;
+}
+img#topBrand {
+    margin-left: 37px;
+    margin-bottom: 26px;
+}
+.foothead{
+    margin-bottom: 16px;
+}
+.link {
+    margin-bottom: 50px;
+}
+.TouchinputHead{
+    margin-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
 }
