@@ -29,7 +29,7 @@
   "products": [
     {
       "id": 1,
-      "name": "OnePlus Y1S 108 cm (43 inch) Full HD LED Smart Android TV with Android 11 and Bezel-Less Frame",
+      "fullName": "OnePlus Y1S 108 cm (43 inch) Full HD LED Smart Android TV with Android 11 and Bezel-Less Frame",
       "description": "You can watch your favourite movies, shows, and other content on this OnePlus TV. Sporting a slim bezel-less design, this TV is designed to offer an enhanced viewing experience.",
       "price": "₹25000",
       "images": [
@@ -43,11 +43,12 @@
       "model_Name": "43FD2A00",
       "screen_Type": "LED",
       "Brand": "One Plus",
-      "inches": "43 inch"
+      "inches": "43 inch",
+      "name" : "OnePlus Y1S 108 cm (43 inch)"
     },
     {
       "id": 2,
-      "name": "SONY Bravia 163.9 cm (65 inch) Ultra HD (4K) LED Smart Google TV  (KD-65X75K)",
+      "fullName": "SONY Bravia 163.9 cm (65 inch) Ultra HD (4K) LED Smart Google TV  (KD-65X75K)",
       "description": "The Sony TV is designed to take your enjoyment to the next level by providing a jitter-free and color-rich visual experience. The X1 processor powers this TV, which helps to reduce noise and improve image clarity.",
       "price": "₹15000",
       "images": [
@@ -61,11 +62,12 @@
       "model_Name": "KD-65X75K",
       "screen_Type": "4K",
       "Brand": "Sony",
-      "inches": "65 inch"
+      "inches": "65 inch",
+      "name" : "SONY Bravia 163.9 cm (65 inch)"
     },
     {
       "id": 3,
-      "name": "SONY Bravia 80 cm (32 inch) HD Ready LED Smart Google TV with Google TV  (KD - 32W820K)",
+      "fullName": "SONY Bravia 80 cm (32 inch) HD Ready LED Smart Google TV with Google TV  (KD - 32W820K)",
       "description": "Experience the ultimate beauty of a daylight scene with crystal clear clarity on the Sony W820K 80 cm (32) HD Ready LED Smart TV. This TV comes with an X-Reality PRO display so that you can explore life-like visuals with refined colours and reduced noise.",
       "price": "₹25,999",
       "images": [
@@ -79,11 +81,12 @@
       "model_Name": "KD - 32W820K",
       "screen_Type": "LED",
       "Brand": "Sony",
-      "inches": "32 inch"
+      "inches": "32 inch",
+      "name" : "SONY Bravia 80 cm (32 inch)"
     },
     {
       "id": 4,
-      "name": "SAMSUNG 80 cm (32 Inch) HD Ready LED Smart Tizen TV with 2022 Model  (UA32T4380AKXXL)",
+      "fullName": "SAMSUNG 80 cm (32 Inch) HD Ready LED Smart Tizen TV with 2022 Model  (UA32T4380AKXXL)",
       "description": "With this Samsung TV, every image on the screen comes to life, giving you a home theatre experience. With the HD visual quality of this TV, you can enjoy vibrant movie scenes",
       "price": "₹13,990",
       "images": [
@@ -97,11 +100,12 @@
       "model_Name": "UA32T4380AKXXL",
       "screen_Type": "LED",
       "Brand": "SAMSUNG",
-      "inches": "32 Inch"
+      "inches": "32 Inch",
+      "name" : "SAMSUNG 80 cm (32 Inch)"
     },
     {
       "id": 5,
-      "name": "SAMSUNG Crystal 4K 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV  (UA43AUE60AKLXL)",
+      "fullName": "SAMSUNG Crystal 4K 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV  (UA43AUE60AKLXL)",
       "description": "Bring home the sleek and powerful SAMSUNG Ultra HD (4K) LED Smart TV (UA55AUE60AKLXL) to enjoy seamless entertainment from all your favourite resources. ",
       "price": "₹29,990",
       "images": [
@@ -114,11 +118,12 @@
       "model_Name": "UA43AUE60AKLXL",
       "screen_Type": "LED",
       "Brand": "SAMSUNG",
-      "inches": "43 inch"
+      "inches": "43 inch",
+      "name" : "SAMSUNG Crystal 4K 108 cm (43 inch)"
     },
     {
       "id": 6,
-      "name": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV  (32LM565BPTA)",
+      "fullName": "LG 80 cm (32 inch) HD Ready LED Smart WebOS TV  (32LM565BPTA)",
       "description": "This LG Smart TV comes equipped with a host of impressive features to delight your senses. While its Dynamic Color Enhancer produces vivid and lifelike colors on the screen, the LG WebOS feature ",
       "price": "₹13,999",
       "images": [
@@ -132,11 +137,12 @@
       "model_Name": "32LM565BPTA",
       "screen_Type": "LED",
       "Brand": "LG",
-      "inches": "32 inch"
+      "inches": "32 inch",
+      "name" : "LG 80 cm (32 inch)"
     },
     {
       "id": 7,
-      "name": "LG UQ8020 108 cm (43 inch) Ultra HD (4K) LED Smart WebOS TV 2022 Edition  (43UQ8020PSB)",
+      "fullName": "LG UQ8020 108 cm (43 inch) Ultra HD (4K) LED Smart WebOS TV 2022 Edition  (43UQ8020PSB)",
       "description": "Enrich your viewing experience and enjoy access to digital content throughout the day, as you bring home the LG UHD TV. It features a UHD 4K resolution display ",
       "price": "₹37,990",
       "images": [
@@ -150,11 +156,12 @@
       "model_Name": "43UQ8020PSB",
       "screen_Type": "LED",
       "Brand": "LG",
-      "inches": "43 inch"
+      "inches": "43 inch",
+      "name" : "LG UQ8020 108 cm (43 inch)"
     },
     {
       "id": 8,
-      "name": "ONIDA 80 cm (32 inch) HD Ready LED Smart VIDAA TV  (32IV)",
+      "fullName": "ONIDA 80 cm (32 inch) HD Ready LED Smart VIDAA TV  (32IV)",
       "description": "You can watch your favourite entertainment programmes or catch up on news on the Onida HD-ready TV. It has an A+ grade panel with a resolution of 1366x768p, which produces sharp and crystal-clear images.",
       "price": "₹11,999",
       "images": [
@@ -168,11 +175,12 @@
       "model_Name": "32IV",
       "screen_Type": "LED",
       "Brand": "ONIDA",
-      "inches": "32 inch"
+      "inches": "32 inch",
+      "name" : "ONIDA 80 cm (32 inch)"
     },
     {
       "id": 9,
-      "name": "ONIDA HIF3 80 cm (32 inch) HD Ready LED Smart FireTv OS 7 TV with Bezel Less  (32HIF3)",
+      "fullName": "ONIDA HIF3 80 cm (32 inch) HD Ready LED Smart FireTv OS 7 TV with Bezel Less  (32HIF3)",
       "description": "Fire TV Built-In | Voice Remote with Alexa | DTH Set-Top Box Integration to switch between DTH TV Channels & OTT apps | Display Mirroring | Access 70+ free live channels on the Live tab | Personalization - up to 6 user profiles | Data Monitoring | Supported Apps ",
       "price": "₹13,499",
       "images": [
@@ -186,11 +194,12 @@
       "model_Name": "32HIF3",
       "screen_Type": "LED",
       "Brand": "ONIDA",
-      "inches": "32 inch"
+      "inches": "32 inch",
+      "name" : "ONIDA HIF3 80 cm (32 inch)"
     },
     {
       "id": 10,
-      "name": "Panasonic 100 cm (40 inch) Full HD LED Smart Android TV  (TH-40HS450DX)",
+      "fullName": "Panasonic 100 cm (40 inch) Full HD LED Smart Android TV  (TH-40HS450DX)",
       "description": "This Panasonic Full HD LED Smart TV is here to ensure that you get to stay entertained with attention-grabbing visuals, powerful sound, and so on. ",
       "price": "₹24,990",
       "images": [
@@ -204,11 +213,12 @@
       "model_Name": "TH-40HS450DX",
       "screen_Type": "LED",
       "Brand": "PANASONIC",
-      "inches": "40 inch"
+      "inches": "40 inch",
+      "name" : "Panasonic 100 cm (40 inch)"
     },
     {
-      "id": 10,
-      "name": "Panasonic 80 cm (32 inch) HD Ready LED Smart TV  (TH-32LS550DX)",
+      "id": 11,
+      "fullName": "Panasonic 80 cm (32 inch) HD Ready LED Smart TV  (TH-32LS550DX)",
       "description": "Warranty does not Cover Any External Accessories (Such as Battery, Cable, Carrying Bag), Damage Caused to the Product due to Improper Installation by Customer, Normal Wear and Tear to Magnetic Heads,",
       "price": "₹24,990",
       "images": [
@@ -222,11 +232,12 @@
       "model_Name": "TH-40HS450DX",
       "screen_Type": "LED",
       "Brand": "PANASONIC",
-      "inches": "32 inch"
+      "inches": "32 inch",
+      "name" : "Panasonic 80 cm (32 inch)"
     },
     {
-      "id": 11,
-      "name": "Mi 5A 80 cm (32 inch) HD Ready LED Smart Android TV with Dolby Audio (2022 Model)",
+      "id": 12,
+      "fullName": "Mi 5A 80 cm (32 inch) HD Ready LED Smart Android TV with Dolby Audio (2022 Model)",
       "description": "You can enjoy your favourite movies, catch up on news, and binge-watch TV series on the Xiaomi L32M7-5AIN HD Smart TV. It features an elegant metal frame with a bezel-less design, allowing you to enjoy a widescreen view. In addition",
       "price": "₹13,999",
       "images": [
@@ -239,11 +250,12 @@
       ],
       "screen_Type": "LED",
       "Brand": "MI",
-      "inches": "32 inch"
+      "inches": "32 inch",
+      "name" : "Mi 5A 80 cm (32 inch)"
     },
     {
-      "id": 12,
-      "name": "Mi X Series 108 cm (43 inch) Ultra HD (4K) LED Smart Android TV with Dolby Vision and 30W Dolby Audio (2022 Model)",
+      "id": 13,
+      "fullName": "Mi X Series 108 cm (43 inch) Ultra HD (4K) LED Smart Android TV with Dolby Vision and 30W Dolby Audio (2022 Model)",
       "description": "With this Xiaomi TV that breathes life into your entertainment, you bring home the real entertainer and always keep one step ahead of the entertainment curve. The stunning bezel-less design ",
       "price": "₹28,999",
       "images": [
@@ -256,11 +268,12 @@
       ],
       "screen_Type": "LED",
       "Brand": "MI",
-      "inches": "43 inch"
+      "inches": "43 inch",
+      "name" : "Mi X Series 108 cm (43 inch)"
     },
     {
-      "id": 13,
-      "name": "PHILIPS 7600 Series 126 cm (50 inch) Ultra HD (4K) LED Smart Linux based TV  (50PUT7605/94)",
+      "id": 14,
+      "fullName": "PHILIPS 7600 Series 126 cm (50 inch) Ultra HD (4K) LED Smart Linux based TV  (50PUT7605/94)",
       "description": "While watching your favourite shows and movies, you can enjoy clear images and impactful sound, thanks to the Philips 7600 Series Smart TV. Designed with a borderless screen, this TV helps deliver an engrossing and entertaining viewing experience.",
       "price": "₹30,999",
       "images": [
@@ -273,11 +286,12 @@
       ],
       "screen_Type": "LED",
       "Brand": "PHILIPS",
-      "inches": "50 inch"
+      "inches": "50 inch",
+      "name" : "PHILIPS 7600 Series 126 cm (50 inch)"
     },
     {
-      "id": 14,
-      "name": "PHILIPS 6800 Series 108 cm (43 inch) Full HD LED Smart Linux based TV  (43PFT6815/94)",
+      "id": 15,
+      "fullName": "PHILIPS 6800 Series 108 cm (43 inch) Full HD LED Smart Linux based TV  (43PFT6815/94)",
       "description": "Crafted for cinephiles with an eye for detail, the Philips FHD LED Smart TV can add a visually impactful dimension to your weekend movie marathons. ",
       "price": "₹26,950",
       "images": [
@@ -290,11 +304,12 @@
       ],
       "screen_Type": "LED",
       "Brand": "PHILIPS",
-      "inches": "43 inch"
+      "inches": "43 inch",
+      "name" : "PHILIPS 6800 Series 108 cm (43 inch)"
     },
     {
-      "id": 15,
-      "name": "Vu Premium TV 108 cm (43 inch) Full HD LED Smart Android TV  (43GA-Android)",
+      "id": 16,
+      "fullName": "Vu Premium TV 108 cm (43 inch) Full HD LED Smart Android TV  (43GA-Android)",
       "description": "You can keep yourself immersed and entertained in your favourite content with the Vu 43GA-Android 109.22 cm (43) TV. Its A+ standard high-brightness IPS screen ensures constant brightness from edge to edge and corner to corner for an excellent viewing experience even in direct sunlight",
       "price": "₹19,999",
       "images": [
@@ -307,11 +322,12 @@
       ],
       "screen_Type": "LED",
       "Brand": "VU",
-      "inches": "43 inch"
+      "inches": "43 inch",
+      "name" : "Vu Premium TV 108 cm (43 inch)"
     },
     {
-      "id": 16,
-      "name": "Vu 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV  (43CA)",
+      "id": 17,
+      "fullName": "Vu 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV  (43CA)",
       "description": "You can enjoy watching your favourite movies on the Vu TV, thanks to 400 Nits brightness that enables life-like visuals. It features a 50 W built-in soundbar with 2 box speakers and 2-tweeter speakers to give you an immersive experience.",
       "price": "₹23,999",
       "images": [
@@ -325,7 +341,8 @@
       ],
       "screen_Type": "LED",
       "Brand": "VU",
-      "inches": "43 inch"
+      "inches": "43 inch",
+      "name" : "Vu 108 cm (43 inch)"
     }
   ],
   "cart": [
