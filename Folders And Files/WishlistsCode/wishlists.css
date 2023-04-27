@@ -11,6 +11,7 @@
     --Background-Color:#F2FBFF;
     --other-orange-color:#008496;
     --other-colors:#fff;
+    --input-border-color:gray;
 }
 
 body{
@@ -47,10 +48,11 @@ body{
     top: 1px;
 }
 
-.backroundMarge{
-    height: 520px;
+.backroundMarge {
     width: 1260px;
-    box-shadow: 0px 0px 6px 1px  rgb(0 0 0 / 10%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 10%);
     margin-left: 20px;
     background-color: var(--other-colors);
 }
@@ -63,56 +65,15 @@ body{
 .products{
     height: 120px;
     width: 390px;
-    /* position: absolute;
-    top: 65px;
-    left: 35px; */
-    margin-top: 10px;
     border-radius: 0px 20px 20px 0px;
     box-shadow: 0px 0px 4px -2px;
     background-color: var(--other-colors);
     display: flex;
 } 
-
-
-/* .productName {
+.products:hover{
+    box-shadow: 0px 0px 10px -2px;
     cursor: pointer;
-    margin-top: -110px;
-    margin-left: 200px;
-    font-size: 14px;
 }
-
-.productModel {
-    cursor: pointer;
-    margin-left: 200px;
-    font-size: 14px;
-    color: var(--font-secondary-color);
-}
-
-.actualprice {
-    cursor: pointer;
-    margin-left: 200px;
-    margin-top: 31px;
-    text-decoration: line-through;
-    font-size: 14px;
-}
-
-.discountPrice {
-    cursor: pointer;
-    margin-left: 260px;
-    margin-top: -22px;
-    font-size: 20px;
-    color: var(--other-orange-color);
-}
-
-.deleteicon {
-    cursor: pointer;
-    margin-left: 357px;
-    margin-top: -47px;
-}
-
-.imgProducts{
-    cursor: pointer ;
-} */
 
 .error {
     height: 10px;
@@ -128,15 +89,73 @@ body{
     display: block;
 }
 
-.allproducts{
+.allproducts {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 24px;
 }
 
-.fetchImage{
-    height: 120px;
+.fetchImage {
+    height: 111px;
+    width: 170px;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 img{
     cursor: pointer;
+}
+
+p.name {
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 6px;
+    width: 140px;
+}
+
+p.price {
+    margin-top: 97px;
+    margin-left: 15px;
+}
+
+.divDelete {
+    margin-top: 52px;
+    margin-left: 182px;
+    height: 20px;
+} 
+
+p.modelName {
+    height: 37px;
+    margin-top: 49px;
+    margin-left: -176px;
+}
+
+.input {
+    height: 40px;
+    width: 564px;
+    border: 0;
+    box-shadow: 0px 0px 5px -1px;
+    border-radius: 10px;
+    padding-left: 43px;
+    font-size: 12px;
+    outline: none;
+}
+.search {
+    width: 5;
+    width: 564px;
+    margin: auto;
+    margin-top: -60px;
+    margin-left: 165px;
+}
+
+input::placeholder{
+    font-size: 12px;
+}
+
+i#searchIcon {
+    position: absolute;
+    left: 173px;
+    top: 24px;
+    color: var(--primary-color);
 }

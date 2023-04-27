@@ -44,7 +44,7 @@
       "screen_Type": "LED",
       "Brand": "One Plus",
       "inches": "43 inch",
-      "name" : "OnePlus Y1S 108 cm (43 inch)"
+      "name": "OnePlus Y1S 108 cm (43 inch)"
     },
     {
       "id": 2,
@@ -63,7 +63,7 @@
       "screen_Type": "4K",
       "Brand": "Sony",
       "inches": "65 inch",
-      "name" : "SONY Bravia 163.9 cm (65 inch)"
+      "name": "SONY Bravia 163.9 cm (65 inch)"
     },
     {
       "id": 3,
@@ -82,7 +82,7 @@
       "screen_Type": "LED",
       "Brand": "Sony",
       "inches": "32 inch",
-      "name" : "SONY Bravia 80 cm (32 inch)"
+      "name": "SONY Bravia 80 cm (32 inch)"
     },
     {
       "id": 4,
@@ -101,7 +101,7 @@
       "screen_Type": "LED",
       "Brand": "SAMSUNG",
       "inches": "32 Inch",
-      "name" : "SAMSUNG 80 cm (32 Inch)"
+      "name": "SAMSUNG 80 cm (32 Inch)"
     },
     {
       "id": 5,
@@ -119,7 +119,7 @@
       "screen_Type": "LED",
       "Brand": "SAMSUNG",
       "inches": "43 inch",
-      "name" : "SAMSUNG Crystal 4K 108 cm (43 inch)"
+      "name": "SAMSUNG Crystal 4K 108 cm (43 inch)"
     },
     {
       "id": 6,
@@ -138,7 +138,7 @@
       "screen_Type": "LED",
       "Brand": "LG",
       "inches": "32 inch",
-      "name" : "LG 80 cm (32 inch)"
+      "name": "LG 80 cm (32 inch)"
     },
     {
       "id": 7,
@@ -157,7 +157,7 @@
       "screen_Type": "LED",
       "Brand": "LG",
       "inches": "43 inch",
-      "name" : "LG UQ8020 108 cm (43 inch)"
+      "name": "LG UQ8020 108 cm (43 inch)"
     },
     {
       "id": 8,
@@ -176,7 +176,7 @@
       "screen_Type": "LED",
       "Brand": "ONIDA",
       "inches": "32 inch",
-      "name" : "ONIDA 80 cm (32 inch)"
+      "name": "ONIDA 80 cm (32 inch)"
     },
     {
       "id": 9,
@@ -195,7 +195,7 @@
       "screen_Type": "LED",
       "Brand": "ONIDA",
       "inches": "32 inch",
-      "name" : "ONIDA HIF3 80 cm (32 inch)"
+      "name": "ONIDA HIF3 80 cm (32 inch)"
     },
     {
       "id": 10,
@@ -214,7 +214,7 @@
       "screen_Type": "LED",
       "Brand": "PANASONIC",
       "inches": "40 inch",
-      "name" : "Panasonic 100 cm (40 inch)"
+      "name": "Panasonic 100 cm (40 inch)"
     },
     {
       "id": 11,
@@ -233,7 +233,7 @@
       "screen_Type": "LED",
       "Brand": "PANASONIC",
       "inches": "32 inch",
-      "name" : "Panasonic 80 cm (32 inch)"
+      "name": "Panasonic 80 cm (32 inch)"
     },
     {
       "id": 12,
@@ -251,7 +251,7 @@
       "screen_Type": "LED",
       "Brand": "MI",
       "inches": "32 inch",
-      "name" : "Mi 5A 80 cm (32 inch)"
+      "name": "Mi 5A 80 cm (32 inch)"
     },
     {
       "id": 13,
@@ -269,7 +269,7 @@
       "screen_Type": "LED",
       "Brand": "MI",
       "inches": "43 inch",
-      "name" : "Mi X Series 108 cm (43 inch)"
+      "name": "Mi X Series 108 cm (43 inch)"
     },
     {
       "id": 14,
@@ -287,7 +287,7 @@
       "screen_Type": "LED",
       "Brand": "PHILIPS",
       "inches": "50 inch",
-      "name" : "PHILIPS 7600 Series 126 cm (50 inch)"
+      "name": "PHILIPS 7600 Series 126 cm (50 inch)"
     },
     {
       "id": 15,
@@ -305,7 +305,7 @@
       "screen_Type": "LED",
       "Brand": "PHILIPS",
       "inches": "43 inch",
-      "name" : "PHILIPS 6800 Series 108 cm (43 inch)"
+      "name": "PHILIPS 6800 Series 108 cm (43 inch)"
     },
     {
       "id": 16,
@@ -323,7 +323,7 @@
       "screen_Type": "LED",
       "Brand": "VU",
       "inches": "43 inch",
-      "name" : "Vu Premium TV 108 cm (43 inch)"
+      "name": "Vu Premium TV 108 cm (43 inch)"
     },
     {
       "id": 17,
@@ -342,7 +342,7 @@
       "screen_Type": "LED",
       "Brand": "VU",
       "inches": "43 inch",
-      "name" : "Vu 108 cm (43 inch)"
+      "name": "Vu 108 cm (43 inch)"
     }
   ],
   "cart": [
@@ -367,19 +367,29 @@
   ],
   "wishlist": [
     {
-      "id": 1,
-      "userId": 1,
-      "productId": 3
+      "id": 2,
+      "userId": 2,
+      "productId": 2
     },
     {
-      "id": 2,
+      "id": 7,
       "userId": 2,
       "productId": 1
     },
     {
-      "userId": 1,
-      "productId": 3,
-      "id": 3
+      "id": 8,
+      "userId": 2,
+      "productId": 3
+    },
+    {
+      "id": 10,
+      "userId": 2,
+      "productId": 4
+    },
+    {
+      "id": 11,
+      "userId": 2,
+      "productId": 5
     }
   ],
   "reviews": []
