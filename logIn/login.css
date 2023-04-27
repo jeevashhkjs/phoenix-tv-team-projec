@@ -85,9 +85,9 @@ input:focus::-webkit-input-placeholder{
 a{
     text-decoration: none;
 }
-.fa-eye:before {
+/* .fa-eye:before {
     content: "\f06e";
     position: absolute;
     top: 305px;
     right: 145px;
-}
+} */
