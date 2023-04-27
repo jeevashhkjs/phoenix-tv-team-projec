@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1280px;
+}
+:root{
+    --primary-color:#0095F9;
+    --font-color:#0F332D;
+    --font-secondary-color:#6B6B6B;
+    --background-color:#F2FBFF;
+    --other-range-color:#008496;
+    --green-color:#3DB220;
+    --white-color:white;
+    --shadow-color:#0a5c93;
+}
+body{
+    background-color: var(--background-color);
+}
+.header {
+    background-color: var(--white-color);
+    height: 70px;
+    box-shadow: 0px 2px 4px 0px gray;
+    display: flex;
+    max-width: 1280px;
+}
+img#logo {
+    padding-left: 15px;
+}
+.search {
+    height: 40px;
+    padding-left: 10px;
+    width: 564px;
+    margin-left: 75px;
+    margin-top: 15px;
+    border: 0;
+    box-shadow: 0px 0px 3px 0px var(--font-secondary-color) inset;
+    border-radius: 10px;
+    outline: none;
+}
+.search:focus.searchIcon{
+    display: none;
+}
+.input{
+    position: relative;
+}
+i.fa-solid.fa-magnifying-glass.searchIcon {
+    position: absolute;
+    left: 88px;
+    top: 27px;
+    color: var(--primary-color);
+}
+.buttons-profile {
+    margin-left: 366px;
+    display: flex;
+    gap: 35px;
+}
+.buttons {
+    margin-top: 22px;
+}
+.profile {
+    margin-left: 20px;
+    margin-top: 13px;
+    display: flex;
+    gap: 15px;
+}
+img.cart {
+    margin-left: 20px;
+}
+.line {
+    background-color: var(--primary-color);
+    width: 2px;
+    height: 40px;
+}
+.profilePic {
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    border-radius: 100px;
+}
+.brandsName {
+    display: flex;
+    margin-left: 94px;
+    gap: 82px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.bannerImg{
+    width: 1263px;
+}
+.parentDivs > img{
+    height: 122px;
+    width: 201px;
+}
+.productsLists{
+    margin-top: 16px;
+    display: flex;
+}
+.parentDivs{
+    background-color: white;
+    height: 220px;
+    width: 225px;
+    box-shadow: 0px 0px 10px 0px var(--shadow-color);
+}
+.parentDivs > img {
+    height: 122px;
+    width: 201px;
+    margin-top: 12px;
+    margin-left: 11px;
+}
+p.productName {
+    padding-top: 8px;
+    text-align: center;
+}
+p.PPrice {
+    text-align: center;
+    padding-top: 5px;
+}
+.productsLists {
+    display: flex;
+    gap: 23px;
+    max-width: 1220px;
+    flex-wrap: wrap;
+    margin: 16px auto;
+}
+h4{
+    color: var(--primary-color);
+}
+li {
+    list-style: none;
+    line-height: 32px;
+}
+.footer{
+    display: flex;
+}
+.contactAndSupport {
+    display: flex;
+    margin-left: 37px;
+    margin-right: 37px;
+    gap: 62px;
+}
+textarea,input.feedback {
+    background-color: var(--background-color);
+    height: 40px;
+    width: 300px;
+    border: solid 2px var(--primary-color);
+    border-radius: 6px;
+}
+textarea {
+    height: 114px;
+    color: var(--primary-color);
+}
+.links, .feedback, .store > h4{
+    margin-bottom: 26px;
+}
+h4.topBrnd {
+    text-align: center;
+    margin: 16px 0px;
+}
+img#topBrand {
+    margin-left: 37px;
+    margin-bottom: 26px;
+}
+.foothead{
+    margin-bottom: 16px;
+}
+.link {
+    margin-bottom: 50px;
+}
+.TouchinputHead{
+    margin-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
