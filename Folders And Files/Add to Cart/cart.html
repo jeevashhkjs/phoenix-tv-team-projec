@@ -1,0 +1,61 @@
+<!DOCTYPE cart_productshtml>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <script src="https://kit.fontawesome.com/38d49cf08b.js" crossorigin="anonymous"></script>
+    <title>Cart</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logoDiv">
+                <img src="./images/logo.svg" class="logo" id="logo" />
+            </div>
+            <div class="input">
+                <input type="text" class="search" id="search" />
+                <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+            </div>
+            <div class="buttons-profile">
+                <div class="buttons">
+                    <img src="./images/Heart.svg" class="wishlist" />
+                    <img src="./images/Cart.svg" class="cart" />
+                </div>
+                <div class="profile">
+                    <div class="line"></div>
+                    <div class="profilePic"></div>
+                </div>
+            </div>
+        </div>
+        <div class="shopping-cart">
+            <div class="cart_list"> </div>
+            <div class="cart_price">
+                <div class="parentPaymentMthod">
+                    <div class="pricedivOne">
+                        <p class="paymentdetails">payment Details</p>
+                        <div class="cart_line"></div>
+                        <p class="totalprice">Total Price <span class="pricetag">$23,000</span></p> 
+                        <p class="discount">Discount <span class="pricetag">$3,000</span></p>
+                        <p class="addeditems">Added Items <span class="pricetag">3</span></p>
+                        <p class="deliveryfee">Delivery Fee<span class="pricetag">$50</span></p>
+                    </div>
+                </div>
+                <div>
+                    <button class="place_order">Place Order</button>
+                    <button class="continue_Shopping">continue shopping</button>
+                    <div class="pricefooter">
+                    <img src="./images/Group 137.svg" alt="" class="savedetails">
+                    <img src="./images/Frame 10.png" alt="" class="asure">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="cart.js"></script>
+</body>
+
+</html>
