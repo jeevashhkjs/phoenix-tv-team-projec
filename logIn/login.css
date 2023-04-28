@@ -9,7 +9,14 @@
     display: flex;
     justify-content: space-between
 }
-
+:root{
+    --primary-color:#0095F9;
+    --font-color:#0F332D;
+    --font-secondary-color:#6B6B6B;
+    --background-color:#F2FBFF;
+    --other-range-color:#008496;
+    --green-color:#3DB220;
+}
 .left-portion{
     width: 50%;
 }
@@ -20,35 +27,33 @@
     margin: 0 auto;
 }
 .quote{
-    color: #0F332D;
+    color: var(--primary-color);
     text-align: center;
-    margin-top: 75px;
+    margin-left: 50px;
+    margin-top: 105px;
 }
 form{
-    color: #0F332D;
+    color: var(--background-color);
     border-radius: 10px;
-    border-top-style: none;
-    margin-top: 70px;
-    box-shadow: 0px 0px 16px 0px #888888;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px 0px #888888;
     width: 500px;
     height: 500px;
     border: solid 1px grey;
     display: table-caption;
-    margin-right: 75px;
+    margin-right: 90px;
 }
 .Greeting{
     text-align: center;
+    margin-top: 30px;
+    color: var(--primary-color);
+}
+.Greeting2{
+    text-align: center;
+    margin-top: 10px;
+    color: var(--primary-color);
 }
 .Email{
-    border-radius: 10px;
-    height: 45px;
-    width: 400px;
-    display: block;
-    margin: 30px auto;
-    border: solid 1px rgb(216, 212, 212);
-    outline: none;
-}
-.Password{
     border-radius: 10px;
     height: 45px;
     width: 400px;
@@ -57,24 +62,43 @@ form{
     border: solid 1px rgb(216, 212, 212);
     outline: none;
 }
+.Password{
+    border-radius: 10px;
+    height: 45px;
+    width: 400px;
+    display: block;
+    margin: 15px auto;
+    border: solid 1px rgb(216, 212, 212);
+    outline: none;
+}
+.checkBox{
+    margin-left: 55px;
+}
 .sub-btn{
     height: 45px;
     width: 250px;
     border-radius: 10px;
     border: none;
-    background-color: blue;
+    background-color: var(--primary-color);
     font-size: 20px;
     display: block;
-    margin: 20px auto;   
+    margin: 30px auto;   
+    color: var(--background-color);
 }
 span{
-    color: blueviolet;
+    color: var(--primary-color);
 }
 .or{
     text-align: center;
+    color: var(--primary-color);
+}
+label{
+    color: black;
 }
 .option{
     text-align: center;
+    margin-top: 20px;
+    color: var(--primary-color);
 }
 input:focus::-webkit-input-placeholder{
     font-size: 10px;
@@ -84,10 +108,8 @@ input:focus::-webkit-input-placeholder{
 }
 a{
     text-decoration: none;
+    color: var(--green-color);
 }
-/* .fa-eye:before {
-    content: "\f06e";
-    position: absolute;
-    top: 305px;
-    right: 145px;
-} */
+input{
+    padding-left: 10px;
+}

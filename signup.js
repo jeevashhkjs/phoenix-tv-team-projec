@@ -1,21 +1,37 @@
-const formTag = document.querySelector(".form")
+const formTag = document.querySelector("form")
 const firstName = document.querySelector(".fname")
 const lastName = document.querySelector(".lname")
 const email = document.querySelector(".email")
 const password = document.querySelector(".Password")
-const subBtn = document.querySelector(".sub-btn")
+const subBtn = document.querySelector(".subBtn")
 const wrongAlert = document.querySelector(".wrong")
 const chechBox = document.querySelector(".checkBox")
-// console.log(subBtn)
+const recommendPassword = document.querySelector(".suggestion")
 
+// console.log(chechBox)
 
-
-formTag.addEventListener("click",(e)=>{
+subBtn.addEventListener("click",(e)=>{
     e.preventDefault()
-})
+    let givingData =/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/
+    let settinEmail = /^(?=.*[@])(?=.*[gmail.com])/
+    if(password.value.match(givingData)){
+        // wrongAlert.style.display = "none"
+        recommendPassword.style.display = "block"
+        password.value = "";
+    }
+    else if(password.value == ""){
 
-chechBox.addEventListener("click",()=>passwordVisible())
-subBtn.addEventListener("click",()=> insertData())
+    }
+    else if(email.value.match(settinEmail)){
+        email.value = "";
+    }
+    else{
+        recommendPassword.style.display = "block"
+    }
+});
+chechBox.addEventListener("click",()=>passwordVisible());
+
+
 
 function passwordVisible(){
     if(password.type == "password"){
@@ -26,27 +42,7 @@ function passwordVisible(){
     }
 }
 
-function insertData(){
-    let givingData =/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/
-    if(password.value.match(givingData)){
-        wrongAlert.style.display = "none"
-    }
-    else{
-        wrongAlert.style.display = "block"
-    }
+function insertData(e){
+
 }
 
-
-// function validatePassword(pass) {
-//     let password =/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/
-//     for (let i = 0; i <pass.length; i++) {
-//       if (pass.match(password)) {
-//         return " it's valid password"
-        
-//       } else {
-//               return " it's invalid password"
-//       }
-//     }
-//   }
-  
-//   console.log(validatePassword("sanjay1&"));

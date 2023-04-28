@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
 }
-.root{
+:root{
     --primary-color:#0095F9;
     --font-color:#0F332D;
     --font-secondary-color:#6B6B6B;
@@ -33,7 +33,8 @@
 .quote{
     text-align: center;
     margin-top: 60px;
-    margin-left: 55px; 
+    margin-left: 55px;
+    color: var(--primary-color); 
 }
 form{
     display: table-caption;
@@ -48,10 +49,12 @@ form{
 .Greeting{
     text-align: center;
     margin-top: 30px;
+    color: var(--primary-color);
 }
 .Greeting2{
     text-align: center;
     margin-top: 10px;
+    color: var(--primary-color);
 }
 .fname{
     width: 400px;
@@ -84,16 +87,24 @@ form{
     width: 400px;
     height: 45px;
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
     border-radius: 10px;
     border: solid 1px rgb(216, 212, 212);
     outline: none;
 }
 .checkBox{
     margin-left: 55px;
+    margin-top:5px
+}
+.suggestion{
+    padding-left: 55px;
+    padding-top: 5px;
+    color: red;
+    /* visibility: hidden; */
+    display: none;
 }
 
-.sub-btn{
+button.subBtn{
     height: 45px;
     width: 250px;
     border-radius: 10px;
@@ -101,14 +112,17 @@ form{
     background-color: var(--primary-color);
     font-size: 20px;
     display: block;
-    margin: 25px auto;   
+    margin: 20px auto;
+    color: var(--background-color);
 }
 .or{
     text-align: center;
+    color: var(--primary-color);
 }
 .sign-in{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
+    color: var(--primary-color);
 }
 input:focus::-webkit-input-placeholder {
     font-size: 10px;
@@ -117,12 +131,20 @@ input:focus::-webkit-input-placeholder {
     transition: 0.2s ease-out;
 }
 span{
-    color: blueviolet;
+    color: var(--primary-color);
 }
 a{
     text-decoration: none;
+    color: var(--green-color);
 }
-
+input{
+    padding-left: 10px;
+}
+/* input:placeholder-shown {
+    background-color: ivory;
+    border: 2px solid green;
+    border-radius: 5px;
+} */
 
 
 
