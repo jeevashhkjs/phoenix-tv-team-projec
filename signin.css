@@ -9,9 +9,20 @@
     display: flex;
     justify-content: space-between;
 }
+.root{
+    --primary-color:#0095F9;
+    --font-color:#0F332D;
+    --font-secondary-color:#6B6B6B;
+    --background-color:#F2FBFF;
+    --other-range-color:#008496;
+    --green-color:#3DB220;
+}
 .left-portion{
     width: 50%;
     text-align: center;
+}
+.right-portion{
+    width: 50%;
 }
 .signinimage{
     height: 460px;
@@ -19,11 +30,16 @@
     display: block;
     margin: 0 auto;
 }
+.quote{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 55px; 
+}
 form{
     display: table-caption;
     border: solid 1px grey;
-    margin-top: 25px;
-    margin-right: 70px;
+    display: block;
+    margin: 33px  auto;
     width: 500px;
     height: 600px;
     box-shadow: 0px 0px 16px 0px #888888;
@@ -31,6 +47,11 @@ form{
 }
 .Greeting{
     text-align: center;
+    margin-top: 30px;
+}
+.Greeting2{
+    text-align: center;
+    margin-top: 10px;
 }
 .fname{
     width: 400px;
@@ -63,10 +84,13 @@ form{
     width: 400px;
     height: 45px;
     display: block;
-    margin: 30px auto;
+    margin: 10px auto;
     border-radius: 10px;
     border: solid 1px rgb(216, 212, 212);
     outline: none;
+}
+.checkBox{
+    margin-left: 55px;
 }
 
 .sub-btn{
@@ -74,16 +98,17 @@ form{
     width: 250px;
     border-radius: 10px;
     border: none;
-    background-color: blue;
+    background-color: var(--primary-color);
     font-size: 20px;
     display: block;
-    margin: 0px auto;   
+    margin: 25px auto;   
 }
 .or{
     text-align: center;
 }
 .sign-in{
     text-align: center;
+    margin-top: 15px;
 }
 input:focus::-webkit-input-placeholder {
     font-size: 10px;
@@ -97,12 +122,7 @@ span{
 a{
     text-decoration: none;
 }
-.fa-eye:before {
-    content: "\f06e";
-    position: absolute;
-    bottom: 245px;
-    right: 140px;
-}
+
 
 
 

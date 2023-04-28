@@ -51,6 +51,7 @@ window.addEventListener("DOMContentLoaded",()=>{
             console.log(productsFromApi[i].id)
             NextPage.setAttribute("id",`${productsFromApi[i].id}`)
             NextPage.href = `../ProductDetails/product.html?id=${productsFromApi[i].id}`
+
             productList.append(NextPage)
 
             let parentDiv = document.createElement("div")
