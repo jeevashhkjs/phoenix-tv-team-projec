@@ -112,7 +112,7 @@ img.cart {
 }
 .cart_price{
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid rgb(130, 130, 130);
     width: 395px;
     margin-top: 16px;
     height: 530;
@@ -130,9 +130,11 @@ img.cart {
     font-size: 16px;
     font-weight: bold;
     color: var(--primary-color);
-    margin-left: 134px;
+    margin-left: 120px;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+    gap: 5px;
 
 }
 p.totalprice {
@@ -146,6 +148,9 @@ p.discount {
 p.discount {
     padding: 20px 20px;
     font-size: 20px;
+}
+.dis{
+    color:#3DB220 ;
 }
 p.addeditems{
     padding: 20px 20px;
@@ -170,10 +175,12 @@ p.deliveryfee{
     display: flex;
 }
 .cart_list{
+    border: 1px solid rgb(130, 130, 130);
     border-radius: 5px;
     margin-top: 16px;
     width: 883px;
     margin-left: 20px;
+    background-color: #fff;
 }
 .pricedivOne{
     position: relative;
@@ -181,4 +188,92 @@ p.deliveryfee{
 .pricetag {
     position: absolute;
     left: 278px;
+}
+.top_details{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.shopping{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.freedel{
+    color: #3DB220;
+    margin-right: 20px;
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+
+.cartproductdiv {
+    display: flex;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+.cartproductdiv:hover{
+    box-shadow: rgba(93, 93, 255, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;}
+.priceselectdiv {
+    display: flex;
+    margin-top: 36px;
+}
+
+.productdel {
+    margin-left: 34px;
+
+}
+.cart_productimg{
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.imgdiv{
+    height: 128px;
+    width: 140px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: solid 1px rgb(180, 180, 180);
+    padding: 10px;
+    border-radius: 2px;
+
+}
+
+select.selectqty {
+    width: 100px;
+    height: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+    border: 1px solid  rgb(130, 130, 130);
+    background: white;
+    border-radius: 5px;
+    color: var(--primary-color);
+}
+p.price {
+    margin-left: 30px;
+}
+.addfavdiv {
+    border: 1px solid  rgb(130, 130, 130) ;
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 56px;
+}
+.price{
+    margin-right: 20px;
+}
+button.removeproduct {
+    background: white;
+    border: 1px solid rgb(130, 130, 130);
+    color: red;
+    border-radius: 5px;
+    padding: 6px 26px;
 }
