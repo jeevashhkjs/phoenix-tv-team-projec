@@ -16,7 +16,7 @@ window.addEventListener("click",(e)=>{
     }
 })
 
-let brands = ["One Plus","Sony","SAMSUNG","LG","ONIDA","PANASONIC","MI","PHILIPS","VU"]
+let brands = ["ONE PLUS","SONY","SAMSUNG","LG","ONIDA","PANASONIC","MI","PHILIPS","VU"]
 
 //brand name showing function
 brands.forEach(brand => {
@@ -50,7 +50,8 @@ window.addEventListener("DOMContentLoaded",()=>{
             let NextPage = document.createElement("a")
             console.log(productsFromApi[i].id)
             NextPage.setAttribute("id",`${productsFromApi[i].id}`)
-            NextPage.href = `../ProductDetails/product.html${productsFromApi[i].id}`
+            NextPage.href = `../ProductDetails/product.html?id=${productsFromApi[i].id}`
+
             productList.append(NextPage)
 
             let parentDiv = document.createElement("div")

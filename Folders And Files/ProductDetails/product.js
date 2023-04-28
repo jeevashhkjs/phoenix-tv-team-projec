@@ -2,28 +2,9 @@
 let getLink = window.location.search
 let targetId = getLink.slice(4,getLink.length)
 
-let prodct = [
-    {
-    "id": 1,
-    "fullName": "OnePlus Y1S 108 cm (43 inch) Full HD LED Smart Android TV with Android 11 and Bezel-Less Frame",
-    "description": "You can watch your favourite movies, shows, and other content on this OnePlus TV. Sporting a slim bezel-less design, this TV is designed to offer an enhanced viewing experience.",
-    "price": "₹25000",
-    "images": [
-      "https://rukminim1.flixcart.com/image/416/416/kzfvzww0/television/g/4/k/43fd2a00-43-y1s-oneplus-original-imagbgc44gerfphz.jpeg?q=70",
-      "https://rukminim1.flixcart.com/image/416/416/kzfvzww0/television/n/t/p/43fd2a00-43-y1s-oneplus-original-imagbgc4twtftzkz.jpeg?q=70",
-      "https://rukminim1.flixcart.com/image/416/416/kzfvzww0/television/4/n/0/43fd2a00-43-y1s-oneplus-original-imagbgc4rcfpenmd.jpeg?q=70",
-      "https://rukminim1.flixcart.com/image/416/416/kzfvzww0/television/4/i/1/43fd2a00-43-y1s-oneplus-original-imagbgc4mhghmg6g.jpeg?q=70",
-      "https://rukminim1.flixcart.com/image/416/416/kzfvzww0/television/v/l/g/43fd2a00-43-y1s-oneplus-original-imagbgc4z5hhts39.jpeg?q=70",
-      "https://rukminim1.flixcart.com/image/416/416/kzfvzww0/television/p/g/c/43fd2a00-43-y1s-oneplus-original-imagbgc4je3cbynd.jpeg?q=70"
-    ],
-    "discountPrice" : "₹30000",
-    "model_Name": "43FD2A00",
-    "screen_Type": "LED",
-    "Brand": "One Plus",
-    "inches": "43 inch",
-    "name" : "OnePlus Y1S 108 cm (43 inch)"
-  }
-]
+let modelName = document.querySelector(".modelNme")
+let size = document.querySelector(".sizeCm")
+let cartBtn = document.querySelector(".cartBtn")
 
 //get elements from html page
 let parentImg = document.querySelector(".currentSelectImg")
@@ -32,15 +13,34 @@ let prdctsDetails = document.querySelector(".priceAndNames")
 
 window.addEventListener("DOMContentLoaded",()=>{
 
+  fetch(`http://localhost:3000/products/${targetId}`)
+  .then(res=>res.json())
+  .then(prodct =>{
+
+    //size and model name assign 
+    size.innerText = prodct.inches
+    modelName.innerText = prodct.model_Name
+
   //parent image
-    parentImg.src = prodct[0].images[0]
+    parentImg.src = prodct.images[0]
 
   //child images
-  for(let i=0;i<prodct[0].images.length;i++){
+  for(let i=0;i<prodct.images.length;i++){
     let createChldImg = document.createElement("img")
     createChldImg.setAttribute("class","childImg")
-    createChldImg.src = prodct[0].images[i]
+    createChldImg.src = prodct.images[i]
 
+    // console.log(prodct.images[i])
+    createChldImg.addEventListener("click",(e)=>{
+      let childImages = document.querySelectorAll(".childImg")
+      for(let k=0;k<childImages.length;k++){
+        childImages[k].classList.remove("selectImg")
+      }
+      e.target.classList.add("selectImg")
+      // console.log(prodct.images[i])
+      parentImg.src = prodct.images[i]
+    })
+    
     childImgDiv.append(createChldImg)
   }
 
@@ -52,17 +52,17 @@ window.addEventListener("DOMContentLoaded",()=>{
   //products details
   let productName = document.createElement("p")
   productName.setAttribute("class","productFUllName")
-  productName.innerText = prodct[0].fullName
+  productName.innerText = prodct.fullName
 
   //product Price
   let productPrice = document.createElement("h2")
   productPrice.setAttribute("class","productPrice")
-  productPrice.innerHTML = `${prodct[0].price} <span class="discount">${prodct[0].discountPrice}</span>`
+  productPrice.innerHTML = `${prodct.price} <span class="discount">${prodct.discountPrice}</span>`
 
   //product rating
   let rating = document.createElement("p")
   rating.setAttribute("class","rating")
-  rating.innerHTML = `4.4 <span><i class="fa-regular fa-star"></i></span>`
+  rating.innerHTML = `4.4 <span><i class="fa-regular fa-star starIcon"></i></span>`
 
   let parentInches = document.createElement("div")
   parentInches.setAttribute("class","parentInches")
@@ -73,25 +73,42 @@ window.addEventListener("DOMContentLoaded",()=>{
   productNameParent.append(rating)
   productNameParent.append(parentInches)
 
+  // console.log(prodct.discountPrice.slice(1,prodct.discountPrice.length))
 
-  for(let k=0;k<4;k++){
+  let priceProducts = Number(prodct.discountPrice.slice(1,prodct.discountPrice.length))
+
+  for(let k=0;k<5;k++){
+    if(k == 1){
+      inchesCards("32 inches",priceProducts+1000)
+    }
+    else if(k ==2){
+      inchesCards("42 inches",priceProducts+1599)
+    }
+    else if(k ==3){
+      inchesCards("44 inches",priceProducts+2099)
+    }else if(k ==4){
+      inchesCards("55 inches",priceProducts+2599)
+    }
+  }
+function inchesCards(incs,prce,disprce){
+
     let inches = document.createElement("div")
     inches.setAttribute("class","inches")
   
     let TVsize = document.createElement("span")
     TVsize.setAttribute("class","size")
-    TVsize.innerHTML = `size <span class = "tvinches">42 inches</span>`
+    TVsize.innerHTML = `size <span class = "tvinches">${incs}</span>`
   
     let createLineInches = document.createElement("div")
     createLineInches.setAttribute("class","lineInches")
   
     let productPriceInches = document.createElement("input")
     productPriceInches.type = "radio"
-    productPriceInches.value = "32000"
+    productPriceInches.value =`₹${disprce}`
   
     let priceInches = document.createElement("span")
     priceInches.setAttribute("class","radioPrice")
-    priceInches.innerText = "₹30000"
+    priceInches.innerText = `₹${prce}`
 
     parentInches.append(inches)
     inches.append(TVsize)
@@ -100,5 +117,8 @@ window.addEventListener("DOMContentLoaded",()=>{
     inches.append(productPriceInches)
     inches.append(priceInches)
   }
+})
 
 })
+
+
