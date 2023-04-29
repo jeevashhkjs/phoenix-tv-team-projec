@@ -1,6 +1,7 @@
 // get particular id from HomePage
 let getLink = window.location.search
 let targetId = getLink.slice(4,getLink.length)
+console.log(targetId)
 
 let modelName = document.querySelector(".modelNme")
 let size = document.querySelector(".sizeCm")
@@ -74,6 +75,11 @@ window.addEventListener("DOMContentLoaded",()=>{
   productNameParent.append(parentInches)
 
   // console.log(prodct.discountPrice.slice(1,prodct.discountPrice.length))
+
+  cartBtn.addEventListener("click",(e)=>{
+    console.log(e.target)
+  })
+  console.log(prodct.discountPrice)  
 
   let priceProducts = Number(prodct.discountPrice.slice(1,prodct.discountPrice.length))
 
