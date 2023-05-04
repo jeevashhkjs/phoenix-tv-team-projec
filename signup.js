@@ -1,32 +1,37 @@
 const formTag = document.querySelector("form")
 const firstName = document.querySelector(".fname")
+const setName = document.querySelector(".setName")
 const lastName = document.querySelector(".lname")
 const email = document.querySelector(".email")
 const password = document.querySelector(".Password")
 const subBtn = document.querySelector(".subBtn")
-const wrongAlert = document.querySelector(".wrong")
 const chechBox = document.querySelector(".checkBox")
 const recommendPassword = document.querySelector(".suggestion")
+const setEmail = document.querySelector(".setEmail")
 
-// console.log(chechBox)
+
 
 subBtn.addEventListener("click",(e)=>{
     e.preventDefault()
     let givingData =/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/
-    let settinEmail = /^(?=.*[@])(?=.*[gmail.com])/
+    let settingEmail = /^(?=.*[@])(?=.*[gmail.com])/
     if(password.value.match(givingData)){
-        // wrongAlert.style.display = "none"
-        recommendPassword.style.display = "block"
         password.value = "";
     }
-    else if(password.value == ""){
-
+    else if(!(password.value.match(givingData))){
+        recommendPassword.style.display = "block"
     }
-    else if(email.value.match(settinEmail)){
+    else if(!(email.value.match(settingEmail))){
         email.value = "";
     }
+    else if(password.value == "" || firstName.value == "" || email.value == ""){
+        recommendPassword.style.display = "block";
+        setName.style.visibility = "visible";
+        setEmail.style.visibility = "visible"
+
+    }
     else{
-        recommendPassword.style.display = "block"
+        recommendPassword.style.display = "none"
     }
 });
 chechBox.addEventListener("click",()=>passwordVisible());

@@ -5,35 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/d1d43b39cf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./signin.css">
+    <link rel="stylesheet" href="./signup.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="left-portion">
-            <h1 class="quote">I find television very educating</h1>
+            <h2 class="quote">Develop success from failures. Discouragement and failure are two of the surest stepping stones to success</h2>
             <img src="signinimage.gif" alt="" class="signinimage">
         </div>
         <div class="right-portion">
             <form>
                 <h2 class="Greeting">Hi Good Morning</h2>
-                <h3 class="Greeting">Welcome to Phoenix TV's</h3>
+                <h3 class="Greeting2">Welcome to Phoenix TV's</h3>
                
-                <input type="text" placeholder="First Name" class="fname">
+                <input type="text" placeholder="First Name" class="fname wrong">
+                <p class="setName">Please Enter Value</p>
 
-                <input type="text" placeholder="Last Name" class="lname">
+                <input type="text" placeholder="Last Name (Optional)" class="lname wrong">
+                <input type="email" placeholder="G-mail" class="email wrong">
+                <p class="setEmail">*Please set valid email</p>
 
-                <input type="email" placeholder="Email" class="email">
-
-                <input type="password" placeholder="Password" class="Password">
-                <i class="fa-regular fa-eye"></i>
-
-                <button type="submit" class="sub-btn">sign-in</button>
+                <input type="password" placeholder="Password" class="Password wrong">
+                <p class="suggestion">*Please set strong password</p>
                 
+                <input type="checkbox" class="checkBox">
+
+                <label>Show password</label>
+                <button class="subBtn">submit</button>
                 <p class="or">OR</p>
-                <h4 class="sign-in option">Don't have account?<span><a href="./logIn/login.html">Login</a></span></h4>
+                <h4 class="sign-in option">Don't have account? <span><a href="./logIn/login.html">Login</a></span></h4>
             </form>
         </div>
     </div>
+    <script src="./signup.js"></script>
 </body>
 </html>

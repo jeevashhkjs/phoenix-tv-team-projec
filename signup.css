@@ -16,6 +16,7 @@
     --background-color:#F2FBFF;
     --other-range-color:#008496;
     --green-color:#3DB220;
+    --red-color:red;
 }
 .left-portion{
     width: 50%;
@@ -46,7 +47,7 @@ form{
     box-shadow: 0px 0px 16px 0px #888888;
     border-radius: 10px;
 }
-.Greeting{
+h2{
     text-align: center;
     margin-top: 30px;
     color: var(--primary-color);
@@ -54,22 +55,34 @@ form{
 .Greeting2{
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 30px;
     color: var(--primary-color);
+}
+.setEmail{
+    color:  var(--red-color);
+    margin-left: 55px;
+    margin-top: 5px;
+    visibility: hidden;
 }
 .fname{
     width: 400px;
     height: 45px;
     display: block;
-    margin: 30px auto;
+    margin: 10px auto;
     border-radius: 10px;
     border: solid 1px rgb(216, 212, 212);
     outline: none;
+}
+.setName{
+    margin-left: 55px;
+    visibility: hidden;  
+    color:  var(--red-color);
 }
 .lname{
     width: 400px;
     height: 45px;
     display: block;
-    margin: 30px auto;
+    margin: 5px auto;
     border-radius: 10px;
     border: solid 1px rgb(216, 212, 212);
     outline: none;
@@ -78,16 +91,18 @@ form{
     width: 400px;
     height: 45px;
     display: block;
-    margin: 30px auto;
+    margin-left: 50px;
+    margin-top: 30px;
     border-radius: 10px;
     border: solid 1px rgb(216, 212, 212);
     outline: none;
 } 
+
 .Password{
     width: 400px;
     height: 45px;
     display: block;
-    margin: 5px auto;
+    margin: 10px auto;
     border-radius: 10px;
     border: solid 1px rgb(216, 212, 212);
     outline: none;
@@ -98,9 +113,7 @@ form{
 }
 .suggestion{
     padding-left: 55px;
-    padding-top: 5px;
-    color: red;
-    /* visibility: hidden; */
+    color:  var(--red-color);
     display: none;
 }
 
@@ -137,15 +150,15 @@ a{
     text-decoration: none;
     color: var(--green-color);
 }
+
 input{
     padding-left: 10px;
 }
-/* input:placeholder-shown {
-    background-color: ivory;
-    border: 2px solid green;
-    border-radius: 5px;
-} */
-
+.setpassword{
+    margin-left: 55px;
+    display: none;
+    color:  var(--red-color);
+}
 
 
 
